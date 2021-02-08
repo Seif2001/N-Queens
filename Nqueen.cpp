@@ -1,5 +1,5 @@
 #include "Nqueen.h"
-#include "Queen.h"
+#include "Queens.h"
 
 bool solveNQueen(int board[N][N], int col) {
    if (col >= N) //when N queens are placed successfully
